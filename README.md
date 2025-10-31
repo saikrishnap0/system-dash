@@ -1,5 +1,3 @@
-
-cat > README.md <<'EOF'
 # macOS System Health Dashboard + Speed Toolkit
 
 > A one-file, Bash 3.2–compatible dashboard for live CPU/MEM/DISK/NET stats and safe, opt-in cleanups — with logs, notifications, and an HTML before/after report.
