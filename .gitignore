@@ -1,0 +1,32 @@
+# macOS clutter
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Logs / Local outputs
+system-dash.log
+system-dash.html
+
+# Node
+node_modules/
+npm-debug.log*
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Logs / Local outputs
+system-dash.log
+system-dash.html
+
+# Node
+node_modules/
+npm-debug.log*
