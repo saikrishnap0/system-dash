@@ -23,7 +23,13 @@
 - macOS-native notifications (`osascript`)
 
 ---
+## 🖥️ Example Terminal View (Live Dashboard UI)
 
+<p align="center">
+  <img width="900" alt="Terminal System Dash" src="https://github.com/user-attachments/assets/d7220539-6c7e-4c07-856a-1d7ccc883422" />
+</p>
+
+---
 ## 📸 Example Output (HTML Report)
 
 <p align="center">
@@ -32,13 +38,6 @@
 
 ---
 
-## 🖥️ Example Terminal View (Live Dashboard UI)
-
-<p align="center">
-  <img width="900" alt="Terminal System Dash" src="https://github.com/user-attachments/assets/d7220539-6c7e-4c07-856a-1d7ccc883422" />
-</p>
-
----
 
 ## 🚀 How to Install & Use
 
