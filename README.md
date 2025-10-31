@@ -1,48 +1,49 @@
 # macOS System Health Dashboard + Speed Toolkit
 
-> A one-file, Bash 3.2–compatible dashboard for live CPU/MEM/DISK/NET stats and safe, opt-in cleanups — with logs, notifications, and an HTML before/after report.
-
-## ✨ Features
-- Live metrics for CPU, Memory, Disk, and Network
-- Safe, confirmed system maintenance actions:
-  - Kill heavy tasks  
-  - Clean caches/logs/trash  
-  - Flush DNS  
-  - Homebrew cleanup  
-  - Docker prune  
-  - Login items cleanup  
-  - Spotlight reindex tools  
-  - npm cache purge  
-  - Optional macOS purge  
-- Saves logs to `~/system-dash.log`
-- Sends system notifications  
-- Generates an **HTML before/after report** at `~/system-dash.html`
+> A single-file, Bash 3.2–compatible system monitor + cleanup toolkit for macOS.  
+> Live CPU/MEM/DISK/NET stats, safe cleanup options, logs, notifications, and an auto-generated HTML before/after report.
 
 ---
 
-## 📸 Screenshot of the HTML Report 
-System Health Report
-Generated: 2024-10-31 14:32:12
+## ✨ Features
 
-📉 Before Cleanup
+- Live system dashboard: CPU %, Memory use, Disk usage, Network I/O
+- Safe, opt-in cleanup operations:
+  - Kill heavy processes  
+  - Clean caches / logs / Trash  
+  - Flush DNS  
+  - Homebrew cleanup  
+  - Docker prune  
+  - Remove login items  
+  - Spotlight index maintenance  
+  - npm cache purge  
+  - Optional memory purge (`sudo purge`)
+- Logs to `~/system-dash.log`
+- Generates HTML report at `~/system-dash.html`
+- macOS-native notifications (`osascript`)
 
-+-------------------+--------+
-| Metric            | Value  |
-+-------------------+--------+
-| Free Memory       | 2.1 GB |
-| Disk Space Free   | 18%    |
-| CPU Load          | 76%    |
-+-------------------+--------+
+---
 
-📈 After Cleanup
+## 📸 Example Output (HTML Report)
 
-+-------------------+--------+
-| Metric            | Value  |
-+-------------------+--------+
-| Free Memory       | 5.4 GB |
-| Disk Space Free   | 42%    |
-| CPU Load          | 29%    |
-+-------------------+--------+
+<p align="center">
+  <img width="900" alt="System Dashboard Report" src="https://github.com/user-attachments/assets/84cbd780-75dc-4508-a1eb-2625dcac8f36" />
+</p>
 
-Cleanup actions performed: Homebrew cleanup, cache purge,
-log cleanup, memory flush
+---
+
+## 🖥️ Example Terminal View (Live Dashboard UI)
+
+<p align="center">
+  <img width="900" alt="Terminal System Dash" src="https://github.com/user-attachments/assets/REPLACE_WITH_TERMINAL_IMG" />
+</p>
+
+---
+
+## 🚀 How to Install & Use
+
+### 1️⃣ One-line install (recommended)
+
+```bash
+curl -L -o ~/system-dash.sh https://raw.githubusercontent.com/<YOUR-USERNAME>/<YOUR-REPO>/main/system-dash.sh
+chmod +x ~/system-dash.sh
